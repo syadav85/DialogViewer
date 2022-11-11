@@ -15,12 +15,12 @@ class HeaderCell: ContentCell {
             label.textColor = UIColor.black
         }
         
-        required init?(coder aDecoder: NSCoder) {
-            super.init(coder: aDecoder)
-        }
-        
-        override class func defaultFont() -> UIFont {
-            return UIFont.preferredFont(forTextStyle: UIFont.TextStyle.headline)
-        }
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override class func defaultFont() -> UIFont {
+        return UIFont.preferredFont(forTextStyle: UIFont.TextStyle.headline)
+    }
     
 }
